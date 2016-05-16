@@ -3,6 +3,7 @@ FROM gliderlabs/alpine:3.3
 MAINTAINER Sergiu Bodiu <sbodiu@pivotal.io>
 RUN apk --no-cache add \
     bash \
+    tar \
     openjdk8-jre  &&\
     rm -rf /tmp/*
 
